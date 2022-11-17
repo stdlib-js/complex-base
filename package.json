@@ -36,6 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/complex-base-cast-return": "^0.0.x",
     "@stdlib/complex-base-wrap-function": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
@@ -47,6 +48,7 @@
     "@stdlib/complex-imagf": "^0.0.x",
     "@stdlib/complex-realf": "^0.0.x",
     "@stdlib/math-base-assert-is-nanf": "^0.0.x",
+    "@stdlib/math-base-ops-addf": "^0.0.x",
     "@stdlib/math-base-ops-caddf": "^0.0.x",
     "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-keys": "^0.0.x",

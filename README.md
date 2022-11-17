@@ -65,6 +65,7 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`cast( fcn, nargs, ctor )`][@stdlib/complex/base/cast-return]</span><span class="delimiter">: </span><span class="description">wrap a function and cast a function's return value to a complex number.</span>
 -   <span class="signature">[`wrap( fcn, nargs, ctor )`][@stdlib/complex/base/wrap-function]</span><span class="delimiter">: </span><span class="description">wrap a function accepting complex number arguments to support providing both real and complex numbers.</span>
 
 </div>
@@ -180,6 +181,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/complex-base/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/complex/base/cast-return]: https://github.com/stdlib-js/complex-base-cast-return
 
 [@stdlib/complex/base/wrap-function]: https://github.com/stdlib-js/complex-base-wrap-function
 

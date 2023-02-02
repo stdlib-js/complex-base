@@ -31,13 +31,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import complex from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@esm/index.mjs';
+import complex from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@v0.0.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { cast, wrap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@esm/index.mjs';
+import { cast, wrap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@v0.0.1-esm/index.mjs';
 ```
 
 #### complex
@@ -89,7 +89,7 @@ The namespace contains the following functions:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@v0.0.1-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 

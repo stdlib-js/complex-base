@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-base",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Base (i.e., lower-level) complex number functions",
   "license": "Apache-2.0",
   "author": {
@@ -37,20 +37,20 @@
   },
   "dependencies": {
     "@stdlib/complex-base-cast-return": "^0.0.1",
-    "@stdlib/complex-base-wrap-function": "^0.0.1",
-    "@stdlib/utils-define-read-only-property": "^0.0.8"
+    "@stdlib/complex-base-wrap-function": "^0.1.0",
+    "@stdlib/utils-define-read-only-property": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-function": "^0.0.8",
-    "@stdlib/assert-is-nonnegative-integer": "^0.0.7",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/complex-float32": "^0.0.7",
-    "@stdlib/complex-imagf": "^0.0.1",
-    "@stdlib/complex-realf": "^0.0.1",
-    "@stdlib/math-base-assert-is-nanf": "^0.0.8",
+    "@stdlib/assert-is-function": "^0.1.0",
+    "@stdlib/assert-is-nonnegative-integer": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/complex-float32": "^0.1.0",
+    "@stdlib/complex-imagf": "^0.1.0",
+    "@stdlib/complex-realf": "^0.1.0",
+    "@stdlib/math-base-assert-is-nanf": "^0.1.0",
     "@stdlib/math-base-ops-addf": "^0.0.1",
     "@stdlib/math-base-ops-caddf": "^0.0.1",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/string-format": "^0.1.0",
     "@stdlib/utils-keys": "^0.0.7",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",

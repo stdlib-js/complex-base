@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import complex from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-base/tags). For example,
+
+```javascript
 import complex from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { cast, wrap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@v0.1.0-esm/index.mjs';
+import { cast, wrap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@esm/index.mjs';
 ```
 
 #### complex
@@ -100,7 +105,7 @@ The namespace contains the following functions:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@v0.1.0-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 

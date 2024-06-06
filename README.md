@@ -78,7 +78,6 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`assert`][@stdlib/complex/base/assert]</span><span class="delimiter">: </span><span class="description">base complex number assert functions.</span>
 -   <span class="signature">[`cast( fcn, nargs, ctor )`][@stdlib/complex/base/cast-return]</span><span class="delimiter">: </span><span class="description">wrap a function and cast a function's return value to a complex number.</span>
 -   <span class="signature">[`wrap( fcn, nargs, ctor )`][@stdlib/complex/base/wrap-function]</span><span class="delimiter">: </span><span class="description">wrap a function accepting complex number arguments to support providing both real and complex numbers.</span>
 
@@ -198,8 +197,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/complex-base/main/LICENSE
 
 <!-- <toc-links> -->
-
-[@stdlib/complex/base/assert]: https://github.com/stdlib-js/complex-base-assert
 
 [@stdlib/complex/base/cast-return]: https://github.com/stdlib-js/complex-base-cast-return
 

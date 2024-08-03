@@ -50,7 +50,7 @@
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
     "@stdlib/math-base-ops-addf": "^0.2.2",
     "@stdlib/number-ctor": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/string-replace": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",

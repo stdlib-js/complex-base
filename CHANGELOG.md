@@ -4,31 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-03)
+## Unreleased (2024-09-01)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+No changes reported for this release.
 
 </section>
 
 <!-- /.release -->
+
+<section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-27)
 
@@ -56,10 +40,10 @@
 
 ##### BREAKING CHANGES
 
--   [`de703af`](https://github.com/stdlib-js/stdlib/commit/de703afc520c9bae446c5b9de9357dc23e047647): remove `complex/base/assert` namespace 
+-   [`de703af`](https://github.com/stdlib-js/stdlib/commit/de703afc520c9bae446c5b9de9357dc23e047647): remove `complex/base/assert` namespace
 
     -   To migrate, users should use the `complex/float32/base/assert` and
-    `complex/float64/base/assert` namespaces.
+        `complex/float64/base/assert` namespaces.
 
 </section>
 
@@ -81,10 +65,10 @@
 
 ##### BREAKING CHANGES
 
--   [`de703af`](https://github.com/stdlib-js/stdlib/commit/de703afc520c9bae446c5b9de9357dc23e047647): remove `complex/base/assert` namespace 
+-   [`de703af`](https://github.com/stdlib-js/stdlib/commit/de703afc520c9bae446c5b9de9357dc23e047647): remove `complex/base/assert` namespace
 
     -   To migrate, users should use the `complex/float32/base/assert` and
-    `complex/float64/base/assert` namespaces.
+        `complex/float64/base/assert` namespaces.
 
 </section>
 
@@ -116,11 +100,11 @@
 
 ##### BREAKING CHANGES
 
--   [`0be60c5`](https://github.com/stdlib-js/stdlib/commit/0be60c5b5c2136ca09e4dfd2edd5efdaf3bb2423): remove `complex/base/assert/is-equal` 
+-   [`0be60c5`](https://github.com/stdlib-js/stdlib/commit/0be60c5b5c2136ca09e4dfd2edd5efdaf3bb2423): remove `complex/base/assert/is-equal`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-equal` which provides the
-    same API and implementation.
+        `@stdlib/complex-float64/base/assert/is-equal` which provides the
+        same API and implementation.
 
 </section>
 
@@ -152,11 +136,11 @@
 
 ##### BREAKING CHANGES
 
--   [`f6c3671`](https://github.com/stdlib-js/stdlib/commit/f6c3671093e29616c7da3347bb311ff8007daba4): remove `complex/base/assert/is-equalf` 
+-   [`f6c3671`](https://github.com/stdlib-js/stdlib/commit/f6c3671093e29616c7da3347bb311ff8007daba4): remove `complex/base/assert/is-equalf`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float32/base/assert/is-equal` which provides the
-    same API and implementation.
+        `@stdlib/complex-float32/base/assert/is-equal` which provides the
+        same API and implementation.
 
 </section>
 
@@ -188,11 +172,11 @@
 
 ##### BREAKING CHANGES
 
--   [`866b939`](https://github.com/stdlib-js/stdlib/commit/866b93963b9ba84407c36b19514aba6ab55489b8): remove `complex/base/assert/is-not-equal` 
+-   [`866b939`](https://github.com/stdlib-js/stdlib/commit/866b93963b9ba84407c36b19514aba6ab55489b8): remove `complex/base/assert/is-not-equal`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-not-equal` which provides the
-    same API and implementation.
+        `@stdlib/complex-float64/base/assert/is-not-equal` which provides the
+        same API and implementation.
 
 </section>
 
@@ -224,11 +208,11 @@
 
 ##### BREAKING CHANGES
 
--   [`33db937`](https://github.com/stdlib-js/stdlib/commit/33db9374d77760cc20b4f025b6582af7138eda33): remove `complex/base/assert/is-not-equalf` 
+-   [`33db937`](https://github.com/stdlib-js/stdlib/commit/33db9374d77760cc20b4f025b6582af7138eda33): remove `complex/base/assert/is-not-equalf`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float32/base/assert/is-not-equal` which provides the
-    same API and implementation.
+        `@stdlib/complex-float32/base/assert/is-not-equal` which provides the
+        same API and implementation.
 
 </section>
 
@@ -260,11 +244,11 @@
 
 ##### BREAKING CHANGES
 
--   [`155251c`](https://github.com/stdlib-js/stdlib/commit/155251c40cd609f0f667b98834ef3244c9621405): remove `complex/base/assert/is-same-value` 
+-   [`155251c`](https://github.com/stdlib-js/stdlib/commit/155251c40cd609f0f667b98834ef3244c9621405): remove `complex/base/assert/is-same-value`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-same-value` which provides the
-    same API and implementation.
+        `@stdlib/complex-float64/base/assert/is-same-value` which provides the
+        same API and implementation.
 
 </section>
 
@@ -296,11 +280,11 @@
 
 ##### BREAKING CHANGES
 
--   [`fd52b0d`](https://github.com/stdlib-js/stdlib/commit/fd52b0da91cb5aa49d287b0ee984fd1e0063e6ab): remove `complex/base/assert/is-same-value-zero` 
+-   [`fd52b0d`](https://github.com/stdlib-js/stdlib/commit/fd52b0da91cb5aa49d287b0ee984fd1e0063e6ab): remove `complex/base/assert/is-same-value-zero`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-same-value-zero` which provides the
-    same API and implementation.
+        `@stdlib/complex-float64/base/assert/is-same-value-zero` which provides the
+        same API and implementation.
 
 </section>
 
@@ -332,11 +316,11 @@
 
 ##### BREAKING CHANGES
 
--   [`a391a4c`](https://github.com/stdlib-js/stdlib/commit/a391a4c422edfa112a686ccfee71390ae32f9edd): remove `complex/base/assert/is-same-value-zerof` 
+-   [`a391a4c`](https://github.com/stdlib-js/stdlib/commit/a391a4c422edfa112a686ccfee71390ae32f9edd): remove `complex/base/assert/is-same-value-zerof`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float32/base/assert/is-same-value` which provides the
-    same API and implementation.
+        `@stdlib/complex-float32/base/assert/is-same-value` which provides the
+        same API and implementation.
 
 </section>
 
@@ -368,29 +352,17 @@
 
 ##### BREAKING CHANGES
 
--   [`91ac840`](https://github.com/stdlib-js/stdlib/commit/91ac840a8f3afd034c16b44ecc441949f70f422b): remove `complex/base/assert/is-same-valuef` 
+-   [`91ac840`](https://github.com/stdlib-js/stdlib/commit/91ac840a8f3afd034c16b44ecc441949f70f422b): remove `complex/base/assert/is-same-valuef`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float32/base/assert/is-same-value` which provides the
-    same API and implementation.
+        `@stdlib/complex-float32/base/assert/is-same-value` which provides the
+        same API and implementation.
 
 </section>
 
 <!-- /.breaking-changes -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-base-cast-return-v0.3.0">
-
-#### [@stdlib/complex/base/cast-return](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/base/cast-return)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -418,18 +390,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="complex-base-wrap-function-v0.3.0">
-
-#### [@stdlib/complex/base/wrap-function](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/base/wrap-function)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 </section>
 
 <!-- /.packages -->
@@ -438,58 +398,58 @@ No changes reported for this release.</details>
 
 ### BREAKING CHANGES
 
--   [`866b939`](https://github.com/stdlib-js/stdlib/commit/866b93963b9ba84407c36b19514aba6ab55489b8): remove `complex/base/assert/is-not-equal` 
+-   [`866b939`](https://github.com/stdlib-js/stdlib/commit/866b93963b9ba84407c36b19514aba6ab55489b8): remove `complex/base/assert/is-not-equal`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-not-equal` which provides the
-    same API and implementation.
+        `@stdlib/complex-float64/base/assert/is-not-equal` which provides the
+        same API and implementation.
 
--   [`33db937`](https://github.com/stdlib-js/stdlib/commit/33db9374d77760cc20b4f025b6582af7138eda33): remove `complex/base/assert/is-not-equalf` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float32/base/assert/is-not-equal` which provides the
-    same API and implementation.
-
--   [`f6c3671`](https://github.com/stdlib-js/stdlib/commit/f6c3671093e29616c7da3347bb311ff8007daba4): remove `complex/base/assert/is-equalf` 
+-   [`33db937`](https://github.com/stdlib-js/stdlib/commit/33db9374d77760cc20b4f025b6582af7138eda33): remove `complex/base/assert/is-not-equalf`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float32/base/assert/is-equal` which provides the
-    same API and implementation.
+        `@stdlib/complex-float32/base/assert/is-not-equal` which provides the
+        same API and implementation.
 
--   [`155251c`](https://github.com/stdlib-js/stdlib/commit/155251c40cd609f0f667b98834ef3244c9621405): remove `complex/base/assert/is-same-value` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-same-value` which provides the
-    same API and implementation.
-
--   [`fd52b0d`](https://github.com/stdlib-js/stdlib/commit/fd52b0da91cb5aa49d287b0ee984fd1e0063e6ab): remove `complex/base/assert/is-same-value-zero` 
+-   [`f6c3671`](https://github.com/stdlib-js/stdlib/commit/f6c3671093e29616c7da3347bb311ff8007daba4): remove `complex/base/assert/is-equalf`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-same-value-zero` which provides the
-    same API and implementation.
+        `@stdlib/complex-float32/base/assert/is-equal` which provides the
+        same API and implementation.
 
--   [`a391a4c`](https://github.com/stdlib-js/stdlib/commit/a391a4c422edfa112a686ccfee71390ae32f9edd): remove `complex/base/assert/is-same-value-zerof` 
+-   [`155251c`](https://github.com/stdlib-js/stdlib/commit/155251c40cd609f0f667b98834ef3244c9621405): remove `complex/base/assert/is-same-value`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float32/base/assert/is-same-value` which provides the
-    same API and implementation.
+        `@stdlib/complex-float64/base/assert/is-same-value` which provides the
+        same API and implementation.
 
--   [`de703af`](https://github.com/stdlib-js/stdlib/commit/de703afc520c9bae446c5b9de9357dc23e047647): remove `complex/base/assert` namespace 
+-   [`fd52b0d`](https://github.com/stdlib-js/stdlib/commit/fd52b0da91cb5aa49d287b0ee984fd1e0063e6ab): remove `complex/base/assert/is-same-value-zero`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/assert/is-same-value-zero` which provides the
+        same API and implementation.
+
+-   [`a391a4c`](https://github.com/stdlib-js/stdlib/commit/a391a4c422edfa112a686ccfee71390ae32f9edd): remove `complex/base/assert/is-same-value-zerof`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float32/base/assert/is-same-value` which provides the
+        same API and implementation.
+
+-   [`de703af`](https://github.com/stdlib-js/stdlib/commit/de703afc520c9bae446c5b9de9357dc23e047647): remove `complex/base/assert` namespace
 
     -   To migrate, users should use the `complex/float32/base/assert` and
-    `complex/float64/base/assert` namespaces.
+        `complex/float64/base/assert` namespaces.
 
--   [`91ac840`](https://github.com/stdlib-js/stdlib/commit/91ac840a8f3afd034c16b44ecc441949f70f422b): remove `complex/base/assert/is-same-valuef` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float32/base/assert/is-same-value` which provides the
-    same API and implementation.
-
--   [`0be60c5`](https://github.com/stdlib-js/stdlib/commit/0be60c5b5c2136ca09e4dfd2edd5efdaf3bb2423): remove `complex/base/assert/is-equal` 
+-   [`91ac840`](https://github.com/stdlib-js/stdlib/commit/91ac840a8f3afd034c16b44ecc441949f70f422b): remove `complex/base/assert/is-same-valuef`
 
     -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-equal` which provides the
-    same API and implementation.
+        `@stdlib/complex-float32/base/assert/is-same-value` which provides the
+        same API and implementation.
+
+-   [`0be60c5`](https://github.com/stdlib-js/stdlib/commit/0be60c5b5c2136ca09e4dfd2edd5efdaf3bb2423): remove `complex/base/assert/is-equal`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/assert/is-equal` which provides the
+        same API and implementation.
 
 </section>
 
@@ -548,27 +508,21 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.1">
+
 ## 0.2.1 (2024-02-24)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-02-14)
 
@@ -855,30 +809,6 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="complex-base-cast-return-v0.2.0">
-
-#### [@stdlib/complex/base/cast-return](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/base/cast-return)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-base-wrap-function-v0.2.0">
-
-#### [@stdlib/complex/base/wrap-function](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/base/wrap-function)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 </section>
 
 <!-- /.packages -->
@@ -887,10 +817,9 @@ No changes reported for this release.</details>
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Philipp Burckhardt
 -   Philipp Burckhardt
 
 </section>
@@ -947,6 +876,12 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
 ## 0.1.0 (2023-09-23)
 
 <section class="packages">
@@ -973,8 +908,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version
--   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version to 4.1 
+-   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -1018,8 +952,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version
--   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version to 4.1 
+-   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -1063,8 +996,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version
--   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version to 4.1 
+-   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -1086,8 +1018,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ### BREAKING CHANGES
 
--   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version
--   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version to 4.1 
+-   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -1124,25 +1055,17 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.1">
+
 ## 0.0.1 (2023-02-02)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<!-- /.release -->
 

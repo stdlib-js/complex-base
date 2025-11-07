@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/complex-base-cast-return": "^0.2.2",
+    "@stdlib/complex-base-parse": "^0.1.1",
     "@stdlib/complex-base-wrap-function": "^0.2.2",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
@@ -48,8 +49,8 @@
     "@stdlib/complex-float32-imag": "^0.1.1",
     "@stdlib/complex-float32-real": "^0.1.1",
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
-    "@stdlib/math-base-ops-addf": "^0.2.2",
     "@stdlib/number-ctor": "^0.2.2",
+    "@stdlib/number-float32-base-add": "github:stdlib-js/number-float32-base-add#main",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/string-replace": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",

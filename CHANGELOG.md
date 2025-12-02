@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-12-02)
 
 <section class="features">
 
@@ -23,6 +23,9 @@
 
 <details>
 
+-   [`92dc7c2`](https://github.com/stdlib-js/stdlib/commit/92dc7c2bea09a0f1d6d12d9048381cc8bcc99fe3) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
+-   [`2b72de4`](https://github.com/stdlib-js/stdlib/commit/2b72de40d93281d9929a0b4d7cf8f567b60ea2f5) - **docs:** improve doctests for complex number instances in `complex/base/cast-return` [(#8664)](https://github.com/stdlib-js/stdlib/pull/8664) _(by Aryan kumar, Athan Reines)_
+-   [`767edc7`](https://github.com/stdlib-js/stdlib/commit/767edc78af5b5b08f826c95b9dd882415dc556f1) - **docs:** improve doctests in `complex/base/wrap-function` [(#8666)](https://github.com/stdlib-js/stdlib/pull/8666) _(by Aryan kumar, Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`b34ccb9`](https://github.com/stdlib-js/stdlib/commit/b34ccb9ddd53057a38713fcf7a8df7af65de268c) - **feat:** update `complex/base` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`c92ba2d`](https://github.com/stdlib-js/stdlib/commit/c92ba2d92c3ae4ea40f9b86fc5d620d7f9579f55) - **docs:** clean-up code in TSDoc examples and remove self-requires _(by Philipp Burckhardt)_
@@ -48,8 +51,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Gururaj Gurram
 -   Philipp Burckhardt

@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-02)
+## Unreleased (2025-12-18)
 
 <section class="features">
 
 ### Features
 
+-   [`66c407f`](https://github.com/stdlib-js/stdlib/commit/66c407f1933131a0050c514ce1c878694a4173cf) - add `assert` to namespace
+-   [`6e539e7`](https://github.com/stdlib-js/stdlib/commit/6e539e715f29950ccc8384337d91e2b2ebf678e7) - add `complex/base/assert` namespace
+-   [`95ee9a0`](https://github.com/stdlib-js/stdlib/commit/95ee9a0d45606e4b9c387366f36ba4fcea4adae5) - add `complex/base/assert/is-almost-same-value`
+-   [`d0857d0`](https://github.com/stdlib-js/stdlib/commit/d0857d0faf6a6718ff9cd002f99184a20ca89278) - add `complex/base/assert/is-almost-equal`
 -   [`b34ccb9`](https://github.com/stdlib-js/stdlib/commit/b34ccb9ddd53057a38713fcf7a8df7af65de268c) - update `complex/base` TypeScript declarations
 -   [`75fdd8b`](https://github.com/stdlib-js/stdlib/commit/75fdd8bef41b544c26df891cf01c1f55596f2d08) - add `parse` to `complex/base` namespace
 
@@ -23,6 +27,11 @@
 
 <details>
 
+-   [`66c407f`](https://github.com/stdlib-js/stdlib/commit/66c407f1933131a0050c514ce1c878694a4173cf) - **feat:** add `assert` to namespace _(by Athan Reines)_
+-   [`6e539e7`](https://github.com/stdlib-js/stdlib/commit/6e539e715f29950ccc8384337d91e2b2ebf678e7) - **feat:** add `complex/base/assert` namespace _(by Athan Reines)_
+-   [`95ee9a0`](https://github.com/stdlib-js/stdlib/commit/95ee9a0d45606e4b9c387366f36ba4fcea4adae5) - **feat:** add `complex/base/assert/is-almost-same-value` _(by Athan Reines)_
+-   [`de7678a`](https://github.com/stdlib-js/stdlib/commit/de7678a5abc59883ba8f0512c71bd0ceb352613b) - **test:** fix descriptions _(by Athan Reines)_
+-   [`d0857d0`](https://github.com/stdlib-js/stdlib/commit/d0857d0faf6a6718ff9cd002f99184a20ca89278) - **feat:** add `complex/base/assert/is-almost-equal` _(by Athan Reines)_
 -   [`92dc7c2`](https://github.com/stdlib-js/stdlib/commit/92dc7c2bea09a0f1d6d12d9048381cc8bcc99fe3) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
 -   [`2b72de4`](https://github.com/stdlib-js/stdlib/commit/2b72de40d93281d9929a0b4d7cf8f567b60ea2f5) - **docs:** improve doctests for complex number instances in `complex/base/cast-return` [(#8664)](https://github.com/stdlib-js/stdlib/pull/8664) _(by Aryan kumar, Athan Reines)_
 -   [`767edc7`](https://github.com/stdlib-js/stdlib/commit/767edc78af5b5b08f826c95b9dd882415dc556f1) - **docs:** improve doctests in `complex/base/wrap-function` [(#8666)](https://github.com/stdlib-js/stdlib/pull/8666) _(by Aryan kumar, Athan Reines)_

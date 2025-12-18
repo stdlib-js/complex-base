@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) complex number functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/complex-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-complex = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var complex = require( 'path/to/vendor/umd/complex-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.complex;
-})();
-</script>
+var complex = require( '@stdlib/complex-base' );
 ```
 
 #### complex
@@ -84,6 +78,7 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`assert`][@stdlib/complex/base/assert]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) complex number assertion functions.</span>
 -   <span class="signature">[`cast( fcn, nargs, ctor )`][@stdlib/complex/base/cast-return]</span><span class="delimiter">: </span><span class="description">wrap a function and cast a function's return value to a complex number.</span>
 -   <span class="signature">[`parse( str )`][@stdlib/complex/base/parse]</span><span class="delimiter">: </span><span class="description">parses a string representing a complex number into a complex like object `{re: number, im: number}`.</span>
 -   <span class="signature">[`wrap( fcn, nargs, ctor )`][@stdlib/complex/base/wrap-function]</span><span class="delimiter">: </span><span class="description">wrap a function accepting complex number arguments to support providing both real and complex numbers.</span>
@@ -112,21 +107,11 @@ The namespace contains the following functions:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/complex-base' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -215,11 +200,13 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/complex/base/cast-return]: https://github.com/stdlib-js/complex-base-cast-return/tree/umd
+[@stdlib/complex/base/assert]: https://github.com/stdlib-js/complex-base-assert
 
-[@stdlib/complex/base/parse]: https://github.com/stdlib-js/complex-base-parse/tree/umd
+[@stdlib/complex/base/cast-return]: https://github.com/stdlib-js/complex-base-cast-return
 
-[@stdlib/complex/base/wrap-function]: https://github.com/stdlib-js/complex-base-wrap-function/tree/umd
+[@stdlib/complex/base/parse]: https://github.com/stdlib-js/complex-base-parse
+
+[@stdlib/complex/base/wrap-function]: https://github.com/stdlib-js/complex-base-wrap-function
 
 <!-- </toc-links> -->
 

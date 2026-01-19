@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-18)
+## Unreleased (2026-01-19)
 
 <section class="features">
 
 ### Features
 
+-   [`e41ec1a`](https://github.com/stdlib-js/stdlib/commit/e41ec1a68b7da44d7258a1aa1a2ad31714c26b65) - update `complex/base/assert` TypeScript declarations [(#9198)](https://github.com/stdlib-js/stdlib/pull/9198)
 -   [`d2379cd`](https://github.com/stdlib-js/stdlib/commit/d2379cd7b805bfab9fb9742a77038a04508038fb) - update `complex/base` TypeScript declarations [(#9199)](https://github.com/stdlib-js/stdlib/pull/9199)
 -   [`66c407f`](https://github.com/stdlib-js/stdlib/commit/66c407f1933131a0050c514ce1c878694a4173cf) - add `assert` to namespace
 -   [`6e539e7`](https://github.com/stdlib-js/stdlib/commit/6e539e715f29950ccc8384337d91e2b2ebf678e7) - add `complex/base/assert` namespace
@@ -28,6 +29,7 @@
 
 <details>
 
+-   [`e41ec1a`](https://github.com/stdlib-js/stdlib/commit/e41ec1a68b7da44d7258a1aa1a2ad31714c26b65) - **feat:** update `complex/base/assert` TypeScript declarations [(#9198)](https://github.com/stdlib-js/stdlib/pull/9198) _(by stdlib-bot)_
 -   [`d2379cd`](https://github.com/stdlib-js/stdlib/commit/d2379cd7b805bfab9fb9742a77038a04508038fb) - **feat:** update `complex/base` TypeScript declarations [(#9199)](https://github.com/stdlib-js/stdlib/pull/9199) _(by stdlib-bot)_
 -   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
 -   [`66c407f`](https://github.com/stdlib-js/stdlib/commit/66c407f1933131a0050c514ce1c878694a4173cf) - **feat:** add `assert` to namespace _(by Athan Reines)_

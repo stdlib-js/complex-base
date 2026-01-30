@@ -65,7 +65,7 @@
     "@stdlib/number-float64-base-assert-is-almost-equal": "^0.1.0",
     "@stdlib/number-float64-base-assert-is-almost-same-value": "^0.1.0",
     "@stdlib/random-base-randu": "^0.2.1",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/string-replace": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
